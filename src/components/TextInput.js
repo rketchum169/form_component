@@ -10,7 +10,7 @@ function TextInput(props) {
   }
 
   return (
-    <>
+    <div>
       <input
         type={inputType}
         value={inputValue}
@@ -18,7 +18,7 @@ function TextInput(props) {
         onChange={handleChange}
         className="inputclass"
       />
-    </>
+    </div>
   );
 }
 

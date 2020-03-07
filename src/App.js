@@ -1,10 +1,10 @@
 import React from "react";
-import TextInput from "./components/TextInput.js";
+import ContactForm from "./components/ContactForm.js";
 
 function App() {
   return (
     <div className="App">
-      <TextInput />
+      <ContactForm />
     </div>
   );
 }
