@@ -16,7 +16,9 @@ function TextArea(props) {
         value={inputValue}
         name="TextArea"
         onChange={handleChange}
-        className="inputclass"
+        className="textArea"
+        placeholder={props.placeholder}
+        pattern={props.pattern}
       />
     </div>
   );

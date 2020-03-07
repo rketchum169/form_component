@@ -1,13 +1,10 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
   return (
     <div className="Header">
-      <h1>Contact Form</h1>
-      <p>
-        Please enter the information below and we will get back to you as soon
-        as possible
-      </p>
+      <h1>{props.name}</h1>
+      <p>{props.instruction}</p>
     </div>
   );
 }
